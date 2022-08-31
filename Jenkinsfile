@@ -10,7 +10,7 @@
     stages{
         stage('complie-app'){
             steps{
-                echo 'this is the compile job'
+                echo 'this is the compile joba'
                 sh 'mvn compile'
                
             }
