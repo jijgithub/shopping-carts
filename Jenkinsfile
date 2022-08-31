@@ -1,5 +1,6 @@
+pipeline{
 
-      agent any
+    agent any
 
 // uncomment the following lines by removing /* and */ to enable
     tools{
@@ -10,7 +11,7 @@
     stages{
         stage('complie-app'){
             steps{
-                echo 'this is the compile joba'
+                echo 'this is the compile job'
                 sh 'mvn compile'
                
             }
